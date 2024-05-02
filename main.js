@@ -75,7 +75,7 @@ function create_result(){
     })
 
 
-document.querySelector('restart').addEventListener('click', ()=>{
+document.querySelector('.restart').addEventListener('click', ()=>{
     div_start.style.display = 'flex'
     div_finish.style.display = 'none'
 })
